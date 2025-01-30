@@ -4,10 +4,10 @@
     ViewData["Title"] = "Home page";
 }
 <header>
-    <div class="image" style="background-image: url(Images/headerImg.svg); background-size: contain; background-repeat: no-repeat;">
+    <div>
         <div class="container">
-            <nav class="buttons navbar justify-content-end pt-3">
-                <div class="nav-item mx-3">
+            <nav class="navbar z-1 justify-content-end mt-1">
+                <div class="nav-item mx-2">
                     <a class="linkServis nav-link">
                         О сервисе
                     </a>
@@ -16,10 +16,38 @@
                     <button type="button" class="btn btn-light px-3 btnEnter">Войти</button>
                 </div>
             </nav>
+            <div class="d-flex justify-content-between mt-5">
+                <div class="d-flex flex-column position-relative headerInfo justify-content-center">
+                    <div class="">
+                        <p>
+                            <img class="" src="Images/logoLight.svg">
+                        </p>
+                    </div>
+                    <div class="">
+                        <p class="headerText">
+                            ВсеВещи.ру — сервис аренды без залога. Помогаем арендаторам находить нужные вещи и совершать безопасные сделки онлайн.
+                        </p>
+                    </div>
+                    <div class="">
+                        <p class="searchText">
+                            Все предложения об аренде в Пензе
+                        </p>
+                        <div class="">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2 py-2" type="search" placeholder="Хочу арендовать" aria-label="Search">
+                                <button class="btn btn-warning p-1" type="submit"><img class="headerSearchImg" src="Images/headerSearch.svg"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <img class="img-fluid headerImg" src="Images/headerImg.png">
+            </div>
+            
         </div>
+        <img src="Images/headerImg.svg" class="w-100 image z-n1">
     </div>
 </header>
-<div class="text-center container">
+<div class="text-center container content">
     <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
     <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
     <h1 class="display-4">Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то 

@@ -44,28 +44,53 @@ body {
 }
 
 .image{
-    height: 750px;
+    position:absolute;
+    top:0;
 }
 
-@media (max-width: 1200px) {
-    .image {
-        height: 630px;
-    }
+.z-1{
+    z-index:1;
 }
-@media (max-width: 1150px) {
-    .image {
-        height: 600px;
-    }
+
+.z-n1{
+    z-index:-1;
 }
-@media (max-width: 1100px) {
-    .image {
-        height: 575px;
-    }
+
+.headerInfo{
+    left:13%;
+    width:30%;
 }
-@media (max-width: 1050px) {
-    .image {
-        height: 540px;
-    }
+
+.headerText {
+    display:flex;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 1px 1px 0px black;
+}
+
+.headerImg {
+    right: 15px;
+    top: 15px;
+}
+
+.searchText {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px 0px black;
+}
+
+.headerSearchImg{
+    height: 40px;
+    width:40px;
+}
+
+.content{
+    margin-top:20%;
 }
 
 .btnEnter {
