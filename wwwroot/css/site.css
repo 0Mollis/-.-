@@ -157,7 +157,35 @@ body {
     z-index: 5;
 }
 
-.katalogElement {
+.katalogImgSize{
+    width:65%;
+    height:65%;
+}
+
+
+/**/
+
+.catalog-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+}
+
+.catalog {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.catalog-item {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom:1rem;
+}
+
+.catalog-circus {
     background: #ffffff;
     border-radius: 50%;
     width: 156px;
@@ -165,14 +193,19 @@ body {
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.25);
 }
 
-.katalogImgSize{
-    width:65%;
-    height:65%;
+.scroll-button {
+    background: #f4f4f4;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border:0px;
+    cursor: pointer;
+    z-index: 1;
 }
 
-.katalogContainer{
-    width:1004px;
-}
+    .scroll-button:hover {
+        background-color: #0056b3;
+    }
 
 /*.footerContainer{
     max-width: 211px;
