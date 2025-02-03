@@ -102,100 +102,266 @@
        </div>
    </div>
 </div>
-<div class="backKatalogImage">
+<div class="backKatalogImage w-100 d-flex flex-column justify-content-center">
     <span class="d-flex justify-content-center zagKatalog">Каталог по городу Пенза</span>
-    <div class="d-flex justify-content-center align-items-center">
-        <button class="scroll-button left mx-4" onclick="scrollCatalog(-1)">&#10094;</button>
+    @* Каталог слайдер *@
+    <div class="d-flex justify-content-center align-items-center my-1">
+        <button class="scroll-button left mx-4" onclick="scrollCatalog(-1)"><img src="Images/buttonLeft.svg"></button>
         <div class="catalog-container">
-            <div class="catalog">
-                <div class="catalog-item">
+            <div class="catalog my-3">
+                @* Каталог *@
+                <div class="catalog-item d-flex flex-column">
                     <div class="catalog-circus d-flex justify-content-center align-items-center">
                         <img class="katalogImgSize" src="Images/otdih.svg">
                     </div>
+                    <div class="mt-2 catalog-text">
+                        <p>
+                            Для отдыха
+                        </p>
+                    </div>
                 </div> 
-                <div class="catalog-item">
+                <div class="catalog-item d-flex flex-column">
                     <div class="catalog-circus d-flex justify-content-center align-items-center">
                         <img class="katalogImgSize" src="Images/otdih.svg">
                     </div>
+                    <div class="mt-2 catalog-text">
+                        <p>
+                            Для отдыха
+                        </p>
+                    </div>
                 </div> 
-                <div class="catalog-item">
+                <div class="catalog-item d-flex flex-column">
                     <div class="catalog-circus d-flex justify-content-center align-items-center">
                         <img class="katalogImgSize" src="Images/otdih.svg">
                     </div>
+                    <div class="mt-2 catalog-text">
+                        <p>
+                            Для отдыха
+                        </p>
+                    </div>
                 </div> 
-                <div class="catalog-item">
+                <div class="catalog-item d-flex flex-column">
                     <div class="catalog-circus d-flex justify-content-center align-items-center">
                         <img class="katalogImgSize" src="Images/otdih.svg">
                     </div>
+                    <div class="mt-2 catalog-text">
+                        <p>
+                            Для отдыха
+                        </p>
+                    </div>
                 </div> 
-                <div class="catalog-item">
+                <div class="catalog-item d-flex flex-column">
                     <div class="catalog-circus d-flex justify-content-center align-items-center">
                         <img class="katalogImgSize" src="Images/otdih.svg">
                     </div>
+                    <div class="mt-2 catalog-text">
+                        <p>
+                            Для отдыха
+                        </p>
+                    </div>
                 </div> 
-                <div class="catalog-item">
+                <div class="catalog-item d-flex flex-column">
                     <div class="catalog-circus d-flex justify-content-center align-items-center">
                         <img class="katalogImgSize" src="Images/otdih.svg">
                     </div>
+                    <div class="mt-2 catalog-text">
+                        <p>
+                            Для отдыха
+                        </p>
+                    </div>
                 </div> 
-                <div class="catalog-item">
+                <div class="catalog-item d-flex flex-column">
                     <div class="catalog-circus d-flex justify-content-center align-items-center">
                         <img class="katalogImgSize" src="Images/otdih.svg">
+                    </div>
+                    <div class="mt-2 catalog-text">
+                        <p>
+                            Для отдыха
+                        </p>
+                    </div>
+                </div> 
+                <div class="catalog-item d-flex flex-column">
+                    <div class="catalog-circus d-flex justify-content-center align-items-center">
+                        <img class="katalogImgSize" src="Images/otdih.svg">
+                    </div>
+                    <div class="mt-2 catalog-text">
+                        <p>
+                            Для отдыха
+                        </p>
+                    </div>
+                </div> 
+                <div class="catalog-item d-flex flex-column">
+                    <div class="catalog-circus d-flex justify-content-center align-items-center">
+                        <img class="katalogImgSize" src="Images/otdih.svg">
+                    </div>
+                    <div class="mt-2 catalog-text">
+                        <p>
+                            Для отдыха
+                        </p>
                     </div>
                 </div> 
                 
             </div>
         </div>
-        <button class="scroll-button right mx-4" onclick="scrollCatalog(1)">&#10095;</button>
+        <button class="scroll-button right mx-4" onclick="scrollCatalog(1)"><img src="Images/buttonRight.svg"></button>
+    </div>
+</div>
+<div class="container d-flex justify-content-center flex-column mt-3 margin-foter">
+    <span class="zagRng">Что арендуют в <font color="green">Пензе</font>?</span>
+    <div class="mt-5">
+        <div class="row row-cols-5 row-cols-md-5 gap-4 h-100">
+            <div class="col card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card forCard">
+                <img src="Images/moika.png" class="card-img-top imgForCard">
+                <div class="card-body">
+                    <div class="card-title">
+                        <span class="card-title-font">
+                            <span class="">1 400 руб.</span>
+                            <span class="card-title-font-days">/3дня</span>
+                        </span>
+                    </div>
+                    <div class="card-text">
+                        <span>Робот-мойщик окон Mamibot W110-T</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-@* <div class="">
-    <span class="position-relative zagKatalog">Каталог по городу Пенза</span>
-    <img class="w-100 z-n1" src="Images/katalogLine.svg">
-</div> *@
-
-
-
-<div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="position-absolute top-0 start-0 p-4 gap-2">
     <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
     <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-    <h1 class="display-4">Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то 
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то 
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-        Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-    Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то Что-то
-    </h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+
+
+
+
+
+

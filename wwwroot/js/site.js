@@ -7,7 +7,7 @@ let scrollAmount = 0;
 let catalog = document.querySelector('.catalog');
 
 function scrollCatalog(direction) {
-    let itemWidth = catalog.querySelector('.catalog-item').offsetWidth + 32; // 32 - это margin
+    let itemWidth = catalog.querySelector('.catalog-item').offsetWidth + 35.2; // 35.2 - это margin
     scrollAmount += direction * itemWidth;
     // Защита от прокрутки за границы
     let maxScroll = catalog.scrollWidth - catalog.parentNode.clientWidth;

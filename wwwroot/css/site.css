@@ -103,11 +103,16 @@ body {
 
 .backKatalogImage {
     background-image: url(../Images/katalogLine.svg);
-    background-size:cover;
+    background-size:100%;
+    background-repeat:no-repeat;
+    height:448px;
+}
+
+.catalog_margin{
+    
 }
 
 .zagKatalog {
-    padding-top: 4.1rem;
     color: #ffffff;
     text-align: center;
     font-family: "Inter-Medium", sans-serif;
@@ -162,13 +167,11 @@ body {
     height:65%;
 }
 
-
 /**/
-
 .catalog-container {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 65.1%;
     overflow: hidden;
     position: relative;
 }
@@ -179,10 +182,9 @@ body {
 }
 
 .catalog-item {
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    margin-bottom:1rem;
+    margin-right: 1.1rem;
+    margin-left: 1.1rem;
+    cursor:pointer;
 }
 
 .catalog-circus {
@@ -191,6 +193,19 @@ body {
     width: 156px;
     height: 156px;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.25);
+}
+
+.catalog-circus:hover{
+    background: #E0E0E0;
+}
+
+.catalog-text {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-shadow:1px 1px 1px black;
 }
 
 .scroll-button {
@@ -204,8 +219,60 @@ body {
 }
 
     .scroll-button:hover {
-        background-color: #0056b3;
+        background-color: #E0E0E0;
     }
+
+.zagRng {
+    text-align: center;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.forCard{
+    width:244px;
+    height:305px;
+    border: 0;
+    border-radius:0;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.5);
+    z-index:3;
+    height:335px;
+}
+
+.card-title-font {
+    color: #000000;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-title-font-days {
+    color: rgba(0, 0, 0, 0.4);
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-text {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    width: 237px;
+    height: 37px;
+}
+
+.imgForCard{
+    height:210px
+}
+
+.margin-foter{
+    margin-bottom: 21%;
+}
 
 /*.footerContainer{
     max-width: 211px;
