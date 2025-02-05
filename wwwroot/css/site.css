@@ -274,6 +274,37 @@ body {
     margin-bottom: 21%;
 }
 
+.aboutUs-zag {
+    color: #182013;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 52px;
+    line-height: 121.06%;
+    font-weight: 700;
+    margin-bottom:14px;
+}
+
+.aboutUs-str {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 20px;
+    line-height: 121.06%;
+    font-weight: 300;
+    margin-top:50px;
+}
+
+.aboutUs-fot {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 121.06%;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 31%;
+}
+
 /*.footerContainer{
     max-width: 211px;
 }*/
