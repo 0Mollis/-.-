@@ -9,7 +9,7 @@ html {
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem dark-green;
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem green;
 }
 
 .nav-link:hover {
@@ -424,6 +424,239 @@ body {
     margin-right:0px;
 }
 
+.item-img {
+    width: 700px;
+    height: 600px;
+    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
+}
+
+.zakaz {
+    width: 420px;
+    height: 361px;
+    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
+}
+
+.info-arend {
+    width: 420px;
+    height: 293px;
+    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+    width: 700px;
+    height: 261px;
+    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
+}
+
+.item-info {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item-description {
+    color: #000000;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.font-transp {
+    color: #8b8b8b;
+    text-align: left;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.item-data{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.zakaz-name {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Chost {
+    color: #000000;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.how-day {
+    color: rgba(0, 0, 0, 0.36);
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.quan {
+    color: #acabab;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.how-have {
+    color: #acabab;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.days {
+    color: #acabab;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.quantity-min:disabled {
+    background: #effff1;
+    width: 25px;
+    height: 25px;
+    border:0px;
+}
+
+.quantity-plus {
+    background: #dcffe1;
+    width: 25px;
+    height: 25px;
+    border:0px;
+}
+
+.btn-size{
+    height:73px;
+}
+
+.arend-zag {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.arend-name {
+    color: #000000;
+    text-align: justify;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-color {
+    background: #dcffe1;
+
+}
+
+.btn-messag-size{
+    width: 325px;
+    height: 70px;
+    border:0px;
+}
+
+.btn-call {
+    border:0px;
+    width: 70px;
+    height: 70px;
+}
+
+.cart-img-size{
+    width:60px;
+    height:60px;
+}
+
+.btn-delite{
+    border:0px;
+    background-color:white;
+}
+
+.cart-font-size{
+    font-size:13px;
+}
+
+.hr-color {
+    border:none;
+}
+
+.cart-zag {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.arend-giver {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.arend-giver-name {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.chose-date {
+    color: #414141;
+    text-align: center;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.item-card-name {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.chost-font {
+    color: #a6a6a6;
+    text-align: right;
+    font-family: "Inter-Light", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.btn-cart-text {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width:170px;
+    height:50px;
+}
+
+.how-have-color {
+    color: #acabab;
+}
+
+.form-check-input:checked {
+    background-color: rgba(20, 121, 30, 1);
+    border-color: rgba(20, 121, 30, 1);
+}
 /*.footerContainer{
     max-width: 211px;
 }*/

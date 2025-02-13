@@ -10,7 +10,7 @@
 </head>
 <body>
     @{
-        if (ViewData["Title"] != "Home page" && ViewData["Title"] != "О сервисе")
+        if (ViewData["Title"].ToString() != "Home page" && ViewData["Title"].ToString() != "О сервисе")
         {
             <header>
                 <nav class="navbar navbar-expand-sm navbar-light mb-3">
